@@ -19,9 +19,11 @@ body {
   color: #fff;
   border-bottom: 4px solid #fdb347;
 }
+/*The align-items property positions the flex content along the cross axis. In this case, with your flex-direction set to row, your cross axis would be vertical.*/
 .gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
